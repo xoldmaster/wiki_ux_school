@@ -5,6 +5,11 @@
 ---
 
 ## 2026-05-11 — Query
+- **Source/Query:** Когда следует комбинировать качественные и количественные методы?
+- **Files changed:** wiki/queries/2026-05-11-kombinirovanie-metodov.md, wiki/concepts/metody-ux-issledovaniy.md, wiki/concepts/tipologiya-issledovaniy.md, index.md
+- **Summary:** Синтезирован ответ с логикой комбинирования, пятью сценариями и типовыми связками методов; обновлены два концептуальных раздела.
+
+## 2026-05-11 — Query
 - **Source/Query:** Как измеряются три компонента юзабилити на практике?
 - **Files changed:** wiki/queries/2026-05-11-izmerenie-komponentov-yuzabiliti.md, wiki/concepts/yuzabiliti.md, index.md
 - **Summary:** Синтезирован ответ из yuzabiliti + metody; каждый компонент сопоставлен с методами и показателями; зафиксирован пробел по конкретным шкалам (SUS и др.).
