@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-05-14 — Ingest (visual asset: what is research)
+- **Source/Query:** `raw/assets/what is reseach.png` — визуальный слайд «Что такое исследование»
+- **Files changed:** wiki/sources/2026-05-14-what-is-research-visual.md, wiki/concepts/metodologiya-issledovaniy.md, index.md
+- **Summary:** Определение исследования дополнено схемой «факты → исследование → знание» с явными определениями каждого узла; встроено изображение.
+
+## 2026-05-14 — Ingest (visual asset: research strategies)
+- **Source/Query:** `raw/assets/reseach strateges.png` — визуальный слайд «Исследовательские стратегии: баланс между охватом и глубиной»
+- **Files changed:** wiki/sources/2026-05-14-research-strategies-visual.md, wiki/concepts/tipologiya-issledovaniy.md, index.md
+- **Summary:** Раздел «По типу стратегий» в типологии расширен таблицей с ключевыми вопросами и фокусом каждой стратегии; встроено изображение слайда.
+
+## 2026-05-14 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/object of reseach.png` — визуальный слайд «Матрица связей: один объект → множество предметов»
+- **Files changed:** wiki/sources/2026-05-14-object-of-research-visual.md, wiki/concepts/obekt-i-predmet-issledovaniya.md, index.md
+- **Summary:** Добавлен учебный слайд-диаграмма; концептуальная страница объект/предмет дополнена термином «матрица связей» и принципом конечность объектов / бесконечность предметов.
+
 ## 2026-05-11 — Query
 - **Source/Query:** Когда следует комбинировать качественные и количественные методы?
 - **Files changed:** wiki/queries/2026-05-11-kombinirovanie-metodov.md, wiki/concepts/metody-ux-issledovaniy.md, wiki/concepts/tipologiya-issledovaniy.md, index.md
