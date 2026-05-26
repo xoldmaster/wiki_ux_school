@@ -4,6 +4,195 @@
 
 ---
 
+## 2026-05-26 — Entity (create)
+- **Source/Query:** создание страницы сущности «Артём Кузнецов» по запросу пользователя
+- **Files changed:** wiki/entities/artyom-kuznetsov.md (создана), wiki/concepts/kariernaya-trayektoriya-ux.md (обновлена — добавлены ссылки), wiki/overview.md (обновлена — счётчик сущностей 3→4, добавлена запись в навигацию), index.md (обновлена — добавлена запись в раздел Сущности)
+- **Summary:** Устранено несоответствие: Белышкин имел страницу сущности, а Кузнецов (соавтор, лектор Модуля 1, автор анализа рынка и матрицы компетенций) — нет; создана страница artyom-kuznetsov.md, добавлены обратные ссылки.
+
+---
+
+## 2026-05-26 — Lint
+- **Source/Query:** плановая проверка базы (восьмой lint; 60 источников, 15 концепций, 3 сущности)
+- **Files changed:** wiki/lint-reports/2026-05-26-lint-3.md, wiki/overview.md, index.md
+- **Summary:** Исправлено 1 (уточнение вопроса о вовлечении стейкхолдеров в overview.md); закрыто наблюдение о рефлексии/рефлексивности; добавлена рекомендация создать страницу Erika Hall; watch-list «Проклятие знания»; 1 задача переходит (дефиниция гипотезы).
+
+---
+
+## 2026-05-26 — Ingest (module)
+- **Source/Query:** `raw/sources/Модуль 1. Профессия и индустрия. Слайды (4).md` — 66 слайдов + полный сценарий лектора; Модуль 1 курса «Профессия UX-исследователь»
+- **Files changed:** wiki/sources/2026-05-26-module-1-profession-industry.md (создана), wiki/concepts/istoriya-professii-ux.md (создана), wiki/entities/jakob-nielsen.md (создана), wiki/entities/donald-norman.md (создана), wiki/concepts/kariernaya-trayektoriya-ux.md (создана), wiki/concepts/yuzabiliti.md (обновлена), wiki/concepts/specefika-ux-issledovaniy.md (обновлена), wiki/concepts/specefika-gosux-issledovaniy.md (обновлена), wiki/overview.md (обновлена), index.md (обновлена)
+- **Summary:** Инжестирован Модуль 1 «Профессия и индустрия»: созданы 5 новых страниц (история профессии, карьерная траектория, Нильсен, Норман, источник); обновлены 3 концепции (юзабилити — 5 атрибутов, специфика UX — смежные роли, госUX — три характеристики + спектр задач + два типа рекомендаций); счётчики: 60 источников / 15 концепций / 3 сущности.
+
+---
+
+## 2026-05-26 — Lint
+- **Source/Query:** полная проверка базы (седьмой lint; 59 источников)
+- **Files changed:** wiki/lint-reports/2026-05-26-lint-2.md, wiki/overview.md, index.md
+- **Summary:** Исправлён счётчик источников (46→59) в overview.md; выявлены 2 новых кандидата на концептуальные страницы («Когнитивные искажения», «Хоторнский эффект»); 1 переходящая задача (дефиниция гипотезы).
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/23.png` — визуальный слайд «Закрепление темы (2)» (слайд №23 из 24)
+- **Files changed:** wiki/sources/2026-05-26-zakreplenie-temy-2-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Синтезирующий раздел дополнен тремя концептами об объекте и знании (динамичность, множественность интерпретаций, пределы познания); введён ключевой термин «контролируемая неопределённость»; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/22.png` — визуальный слайд «Закрепление темы (1)» (слайд №22 из 24)
+- **Files changed:** wiki/sources/2026-05-26-zakreplenie-temy-1-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Добавлен синтезирующий раздел «Система исследователь — респондент» с тремя именованными концептами (двойная опасность, мультимодальность, хрупкость условий); изображение встроено после Группы 3.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/21.png` — визуальный слайд «Вопросы воспроизводимости» (слайд №21 из 24)
+- **Files changed:** wiki/sources/2026-05-26-voprosy-vosproizvodimosti-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Воспроизводимость» Группы 3 расширен двумя именованными механизмами (надёжность эффектов, уникальность момента); цифра 40% визуально подтверждена диаграммой; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/20.png` — визуальный слайд «Отсутствие абсолютного знания» (слайд №20 из 24)
+- **Files changed:** wiki/sources/2026-05-26-otsutstvie-absolyutnogo-znaniya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Вероятностный характер закономерностей» Группы 2 переименован («Отсутствие абсолютного знания») и усилен ключевым словом «принципиально» — недетерминированность онтологична, а не технична; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/19.png` — визуальный слайд «Маски и Хоторнский эффект» (слайд №19 из 24)
+- **Files changed:** wiki/sources/2026-05-26-maski-khatornskiy-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Эффект социальной желательности» переименован («маски») и расширен конкретными атрибутами и метафорой; блок «Хоторнский эффект» дополнен акцентом на коллективах; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/18.png` — визуальный слайд «Проблема наведённой реальности» (слайд №18 из 24)
+- **Files changed:** wiki/sources/2026-05-26-problema-navedennoy-realnosti-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Наведённая реальность / Эффект наблюдателя» Группы 3 усилен: добавлен тезис о необратимости и явная связь экологичности с валидностью данных; изображение встроено рядом со слайдом 15.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/17.png` — визуальный слайд «Недоконтроль» (слайд №17 из 24, серия «Государство для людей»)
+- **Files changed:** wiki/sources/2026-05-26-nedokontrol-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Недоконтроль» Группы 1 расширен тремя механизмами; уточнена формулировка: искажаются и данные, и интерпретации (а не только данные); добавлена парная связь со слайдом «Уровень контроля»; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/16.png` — визуальный слайд «Уровень контроля» (слайд №16 из 24, серия «Государство для людей»)
+- **Files changed:** wiki/sources/2026-05-26-uroven-kontrolya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Уровень контроля» Группы 1 расширен тремя источниками ограничений (этические нормы, юридические рамки, стандарты дизайна); добавлена связь с этапами планирования; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/15.png` — визуальный слайд «Эффект наблюдателя» (слайд №15 из 25)
+- **Files changed:** wiki/sources/2026-05-26-effekt-nablyudatelya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Наведённая реальность» Группы 3 расширен структурой трёх компонентов эффекта наблюдателя (инвазивность метода, прерывание нормы, искажение контекста); изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/14.png` — визуальный слайд «Рефлексивность объекта» (слайд №14 из 25)
+- **Files changed:** wiki/sources/2026-05-26-refleksivnost-obekta-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Рефлексивность объекта» Группы 3 расширен трёхшаговой моделью (осознание → интерес → смена стратегии); добавлено явное разграничение с «рефлексией» модератора (закрыто наблюдение lint-6); изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/13.png` — визуальный слайд «Разделение слоёв восприятия» (слайд №13 из 25)
+- **Files changed:** wiki/sources/2026-05-26-razdelenie-sloev-vospriyatiya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Профессиональная независимость от эмоций» Группы 2 расширен: введены термины «эмоциональная гигиена», «когнитивно-деятельностный слой» и парный концепт «разделение слоёв восприятия»; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/12.png` — визуальный слайд «Изменчивость во времени» (слайд №12 из 25)
+- **Files changed:** wiki/sources/2026-05-26-izmenchivost-vo-vremeni-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Изменчивость во времени» Группы 2 расширен трёхфазной моделью и требованием проактивно закладывать компенсацию в дизайн сессии; введён термин «когнитивное утомление»; изображение встроено.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/11.png` — визуальный слайд «Историчность и культурная обусловленность» (слайд №11 из 25; серия «Государство для людей»)
+- **Files changed:** wiki/sources/2026-05-26-istorichnost-kulturnaya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Блок «Историчность и культурная обусловленность» Группы 2 расширен явным перечнем четырёх фильтров восприятия и концептом «локальной экспертизы»; добавлена формулировка «данные не существуют в вакууме»; изображение встроено.
+
+---
+
+## 2026-05-26 — Lint
+- **Source/Query:** плановая проверка базы (шестая)
+- **Files changed:** wiki/lint-reports/2026-05-26-lint.md, wiki/overview.md, index.md
+- **Summary:** Исправлён счётчик источников (37→46) и дата (2026-05-20→2026-05-26) в overview.md; зафиксированы 2 наблюдения (терминологическое пересечение рефлексия/рефлексивность; watch-list «Оптика погруженности»); 1 задача переходит.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/10.png` — визуальный слайд «Оптика погруженности» (слайд №10 из 24)
+- **Files changed:** wiki/sources/2026-05-26-optika-pogruzhennosti-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** В Группу 2 добавлен именованный концепт «оптика погруженности» как позитивный контрпункт к «Множественности смыслов»; зафиксирован тезис о корневой причине и трансформации хаоса данных; изображение встроено после блока.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/9.png` — визуальный слайд «Множественность смыслов» (слайд №9 из 24)
+- **Files changed:** wiki/sources/2026-05-26-mnozhestvennost-smyslov-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирована «Интерпретационная множественность» Группы 2: добавлен тезис о командном риске расхождения «картин реальности» и роли бэкграунда исследователя в трактовке; изображение встроено после блока.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/8.png` — визуальный слайд «Искажения в фокус-группах» (слайд №8 из 24)
+- **Files changed:** wiki/sources/2026-05-26-iskazheniya-fokus-grupp-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирована «Групповая динамика (фокус-группы)» Группы 1: добавлен акцент на «радикальном» искажении и требовании «жёсткого и умелого» управления группой; изображение встроено после блока.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/7.png` — визуальный слайд «Влияние самого исследователя» (слайд №7 из 24)
+- **Files changed:** wiki/sources/2026-05-26-vliyanie-issledovatelya-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирована «Проблема модерации» Группы 1: добавлены смены настроения и тезис о рефлексии как профессиональном навыке; изображение встроено после блока «Проблема модерации».
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/6.png` — визуальный слайд «Психологическая безопасность» (слайд №6 из 24)
+- **Files changed:** wiki/sources/2026-05-26-psikhologicheskaya-bezopasnost-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирована «Проблема доверия и открытости» Группы 1; добавлен новый тезис о риске избыточной эмпатии при полном доверии; изображение встроено после блока.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/5.png` — визуальный слайд «Потерянные данные невербалики» (слайд №5 из 24)
+- **Files changed:** wiki/sources/2026-05-26-poteryanye-dannye-neverbaliki-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирован «Невербальный слой» Группы 1: зафиксирован тезис о системной потере невербальной информации в стандартных протоколах; изображение встроено после блока «Невербальный слой».
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/4.png` — визуальный слайд «Удвоенный риск искажений» (слайд №4 из 25)
+- **Files changed:** wiki/sources/2026-05-26-udvoenny-risk-iskazheniy-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Визуализирован двойной риск мискоммуникации: искажения на стороне исследователя (формулировка) и на стороне респондента (вербализация); изображение встроено после блока «Двойной риск мискоммуникации» в Группе 1.
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/3.png` — визуальный слайд «Коммуникация как единственный доступ» (слайд №3 из 25)
+- **Files changed:** wiki/sources/2026-05-26-kommunikaciya-kak-dostup-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Детализирована Группа 1 (Коммуникационные особенности): добавлены три тезиса о речи как единственном канале доступа к опыту респондента; изображение встроено в начало раздела «Группа 1».
+
+---
+
+## 2026-05-26 — Ingest (visual asset)
+- **Source/Query:** `raw/assets/2.png` — визуальный слайд «Три группы особенностей» (диаграмма Венна)
+- **Files changed:** wiki/sources/2026-05-26-tri-gruppy-osobennostey-visual.md, wiki/concepts/specefika-gumanitarnyx-issledovaniy.md, index.md
+- **Summary:** Добавлен вводный слайд с диаграммой Венна трёх групп особенностей гуманитарных исследований (коммуникационные, объектные, методологические); изображение встроено в концепцию после резюме; добавлена ссылка в раздел «Доказательства».
+
+---
+
 ## 2026-05-21 — Lint
 - **Source/Query:** плановая проверка базы (пятая)
 - **Files changed:** wiki/lint-reports/2026-05-21-lint.md, wiki/overview.md, wiki/concepts/specefika-gosux-issledovaniy.md, wiki/concepts/gipoteza.md (создана), wiki/concepts/insajt.md, wiki/concepts/etapy-issledovatelskogo-processa.md, wiki/sources/2026-05-20-sinkhronizaciya-ponyatiy-visual.md, index.md
